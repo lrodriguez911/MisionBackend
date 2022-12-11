@@ -1,0 +1,18 @@
+{
+  "name": "node-and-express",
+  "version": "1.0.0",
+  "description": "microsoft launch x process asynchronous",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node santa.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "promises",
+    "callback"
+  ],
+  "author": "Lucas M Rodriguez",
+  "license": "ISC"
+}
