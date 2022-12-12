@@ -1,0 +1,21 @@
+{
+  "name": "show-page-nodejs",
+  "version": "1.0.0",
+  "description": "how show a page using express and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "launchx"
+  ],
+  "author": "Lucas M Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
