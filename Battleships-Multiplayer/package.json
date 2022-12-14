@@ -1,0 +1,25 @@
+{
+  "name": "battleships-multiplayer",
+  "version": "1.0.0",
+  "description": "famous game battleships using nodejs and sockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "launchx",
+    "battleships"
+  ],
+  "author": "Lucas M Rodriguez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
