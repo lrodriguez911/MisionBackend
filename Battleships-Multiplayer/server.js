@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socket(server);
 
-app.use(express.static(path.join(__dirname, "puclic")));
+app.use(express.static(path.join(__dirname, "public")));
 
 server.listen(PORT, () => {
   console.log(`the server is litening in port: ${PORT}`);
@@ -29,7 +29,6 @@ io.on("connection", (socket) => {
   console.log(`Player ${playerIndex} has been conected`);
 
   if (playerIndex === -1) return;
-
   connections[playerIndex] = false;
 
   socket.broadcast.emit("player-connection", playerIndex);
